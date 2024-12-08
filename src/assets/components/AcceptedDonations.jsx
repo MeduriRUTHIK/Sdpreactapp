@@ -41,7 +41,7 @@ export default function AcceptedDonations() {
           width: '90%',
           margin: '0 auto',
           borderCollapse: 'collapse',
-          boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+          boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2  )',
           backgroundColor: '#ffffff',
           borderRadius: '8px',
           overflow: 'hidden',
