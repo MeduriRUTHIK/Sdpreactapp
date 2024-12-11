@@ -12,7 +12,7 @@ const ViewReciepients = () => {
   useEffect(() => {
     const fetchDonationRequests = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/allreciepients");
+        const response = await axios.get("sdpdeployment.up.railway.app/allreciepients");
         setDonationRequests(response.data);
       } catch (error) {
         console.error("Error fetching donation requests:", error);
