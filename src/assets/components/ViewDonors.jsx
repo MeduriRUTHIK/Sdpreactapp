@@ -11,7 +11,7 @@ const ViewDonors = () => {
   useEffect(() => {
     const fetchDonors = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/alldonors"); // Replace with your API endpoint
+        const response = await axios.get("sdpdeployment.up.railway.app/alldonors"); // Replace with your API endpoint
         setDonors(response.data);
       } catch (err) {
         setError(err.message || "Error fetching donor data");
