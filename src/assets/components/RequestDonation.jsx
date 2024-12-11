@@ -52,7 +52,7 @@ const RequestDonation = () => {
 
         try {
             // Send data to the server
-            const response = await fetch('http://localhost:8080/requst-donation', {
+            const response = await fetch('sdpdeployment.up.railway.app/requst-donation', {
                 method: 'POST',
                 body: data,  // Sending formData directly
             });
