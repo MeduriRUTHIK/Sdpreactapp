@@ -6,7 +6,7 @@ const RequestHistory = () => {
 
   useEffect(() => {
     // Fetch data from the backend API
-    axios.get('http://localhost:8080/allrequests')
+    axios.get('sdpdeployment.up.railway.app/allrequests')
       .then(response => {
         setDonationRequests(response.data);
       })
