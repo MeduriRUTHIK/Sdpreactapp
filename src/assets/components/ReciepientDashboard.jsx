@@ -30,7 +30,7 @@ const RecipientDashboard = () => {
                         fontSize: '35px',
                         color: 'red',
                     }} />
-                    <span style={{ fontWeight: 'bold' }}>careconnect</span>
+                    <span style={{ fontWeight: 'bold' }}>HumbleHands</span>
                 </div>
 
                 <div className="auth-buttons" style={{ display: 'flex', gap: '10px' }}>

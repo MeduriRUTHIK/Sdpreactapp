@@ -43,7 +43,7 @@ const ViewReciepients = () => {
             fontSize: '35px',
             color: 'red',
           }} />
-          <span style={{ fontWeight: 'bold' }}>HambleHands</span>
+          <span style={{ fontWeight: 'bold' }}>HumbleHands</span>
         </div>
 
         <div className="auth-buttons" style={{ display: 'flex', gap: '10px' }}>
